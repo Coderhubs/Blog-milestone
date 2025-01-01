@@ -1,5 +1,5 @@
 import CommentForm from "@/app/Components/CommentForm";
-import client from "@/sanity/lib/client";
+import {client} from "@/sanity/lib/client";
 import { PortableText } from "next-sanity";
 import Image from "next/image";
 
