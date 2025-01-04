@@ -1,6 +1,5 @@
 import React from 'react'
 import Card from "../ui/card"
-
 const BlogSection: React.FC = () => {
 
 const generateSlug = (title: string) => {
@@ -54,7 +53,7 @@ const articles = [
     "slug": generateSlug("Top Travel Destinations to Explore in 2024")
   },
   {
-    "imageUrl": "/images/Socialmedia.jpg",
+    "imageUrl": "/images/socialmedia.jpg",
     "category": "Social Media Insights",
     "title": "The Impact of Social Media: Trends and Strategies",
     "description": "Delve into the evolving world of social media. Learn how platforms influence lifestyles, businesses, and connections, and uncover tips to thrive in the digital realm.",
